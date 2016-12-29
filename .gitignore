@@ -1,0 +1,30 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+**/dist
+**/tmp
+**/log
+**/coverage/
+!**/log/.keep
+!**/tmp/.keep
+
+# dependencies
+**/node_modules
+**/bower_components
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+**/*.bak
+
+
+# RAILS
+# Ignore bundler config.
+**/.bundle
+
+# Ignore Byebug command history file.
+.byebug_history

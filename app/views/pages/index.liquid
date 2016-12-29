@@ -1,0 +1,189 @@
+---
+title: Home page
+published: true
+handle: home
+---
+{% extends 'layouts/default' %}
+
+{% block content %}
+
+<div id="main-slider" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+    <li data-target="#main-slider" data-slide-to="1"></li>
+    <li data-target="#main-slider" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <div class="mask"></div>
+      {{ 'slides/membership-drive.jpg' | theme_image_tag: 'alt:Community membership drive' }}
+      <div class="carousel-caption">
+        <h3>Membership Drive & Awareness Campaign</h3>
+        <p>Empire Park Community Leauge volunteers will be coming to your door to spread awareness of what we do. It's also a great time to pick up a membership!</p>
+        <a href="#" class="btn btn-primary">Learn More</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="mask"></div>
+      {{ 'slides/fire.jpg' | theme_image_tag: 'alt:Second Slide' }}
+      <div class="carousel-caption">
+        <h3>Movie in the Park</h3>
+        <p>September 17th Walking Dead will play in Empire Park</p>
+        <a href="#" class="btn btn-primary">Learn More</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="mask"></div>
+      {{ 'slides/bbq.jpg' | theme_image_tag: 'alt:Kid on a swing' }}
+      <div class="carousel-caption">
+        <h3>Community League Day</h3>
+        <p>Celebrating communities across the city, Empire Park will be hosting a raging party!</p>
+        <a href="#" class="btn btn-primary">Learn More</a>
+      </div>
+    </div>
+  </div>
+  <a class="left carousel-control" href="#main-slider" role="button" data-slide="prev">
+    <span class="icon-prev" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#main-slider" role="button" data-slide="next">
+    <span class="icon-next" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<section class="segment features">
+  <div class="container">
+    <div class="title">
+      <h2>Benefits of Membership</h2>
+      <div class="short-text">
+        <div class="sep l"></div>
+        <h5>Reasons to Join Us</h5>
+        <div class="sep r"></div>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="card-deck-wrapper">
+        <div class="card-deck">
+
+          <div class="card feature">
+            <div class="card-block">
+              <div class="icons">
+                <i class="fa fa-futbol-o fa-3x icon-default" aria-hidden="true"></i>
+                <i class="fa fa-futbol-o fa-3x icon-hover" aria-hidden="true"></i>
+              </div>
+              <h4>Access & Discounts</h4>
+              <p>
+                Membership provides access to minor sports such as Soccer and Baseball along with some discounts at City of Edmonton Recreation Facilities
+              </p>
+              <a href="#" class="btn btn-min btn-secondary">Learn More</a>
+            </div>
+          </div>
+          <div class="card feature">
+            <div class="card-block">
+              <div class="icons">
+                <i class="material-icons md-3x icon-default">pool</i>
+                <i class="material-icons md-3x icon-hover">pool</i>
+              </div>
+              <h4>Free Swimming</h4>
+              <p>
+                Each membership grants users several entries into Edmonton Confederation Pool's public swim times for free. Just one more perk of being a member
+              </p>
+              <a href="#" class="btn btn-min btn-secondary">Learn More</a>
+            </div>
+          </div>
+          <div class="card feature">
+            <div class="card-block">
+              <div class="icons">
+                <i class="fa fa-comments-o fa-3x icon-default" aria-hidden="true"></i>
+                <i class="fa fa-comments-o fa-3x icon-hover" aria-hidden="true"></i>
+              </div>
+              <h4>Neighbourhood Decisions</h4>
+              <p>
+                Community leagues are recognized by the City of Edmonton as the primary speaking body for a community. We are independent and our members help determine our priorities.
+              </p>
+              <a href="#" class="btn btn-min btn-secondary">Learn More</a>
+            </div>
+          </div>
+          <div class="card feature">
+            <div class="card-block">
+              <div class="icons">
+                <i class="material-icons md-3x icon-default">money_off</i>
+                <i class="material-icons md-3x icon-hover">money_off</i>
+              </div>
+              <h4>Discounted Hall Rental</h4>
+              <p>
+                Need a place to hold a birthday party? We offer greatly discounted rental rates for our hall to our members.
+              </p>
+              <a href="#" class="btn btn-min btn-secondary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="countdown-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 clearfix">
+        <h3 class="text">Our Next Event Will Be In</h3>
+      </div>
+      <div class="col-lg-7">
+        <div class="countdown clearfix">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="event-wrapper">
+  <div class="mask"></div>
+  <div class="container">
+    <h2>Community League Day</h2>
+    <h4>
+      <i class="fa fa-clock-o"></i>Saturday September 17, 2016 @ 1:30pm</h4>
+    <h4>
+      <i class="fa fa-map-marker"></i>
+      Empire Park Community Hall
+    </h4>
+    <p>
+      Once again we're hosting a party for Community League Day to celebrate leagues and their tireless support of
+      their neighbourhoods. We'll have non stop Pokemon lures setup at our three Pokestops along with food, games and
+      live music.
+    </p>
+    <a href="#" class="btn btn-big btn-solid">
+      <i class="fa fa-compass"></i>
+      <span>Learn More</span>
+    </a>
+  </div>
+</div>
+
+<div class="volunteers-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 info-block">
+        <h2>We Need<span> Volunteers</span></h2>
+        <p>
+          Empire Park is a registered non-profit that functions because of the good will and generosity of volunteers.
+          We're always on the lookout for great talent so if you or anyone you know might be interested contact us at <strong>volunteers@empirepark.ca</strong>
+        </p>
+
+        <p>
+          Remember to check back in a few weeks when we launch our volunteers posting page!
+        </p>
+        <a href="#" class="btn btn-big"}}
+          <i class="fa fa-heartbeat"></i>Become a Volunteer
+        </a>
+      </div>
+      <div class="col-sm-6 images-outer ">
+        {{ 'hall.jpg' | theme_image_tag: 'class:thumbnail' }}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
