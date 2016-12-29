@@ -1,4 +1,7 @@
-@import 'mixins';
-@import 'variables';
-@import 'typography';
+// Global Module
+//
+// Globals are styles that are applied across a site. These include things like CSS resets,
+// and sitewide typography, link and sizing defaults.
+//
+// Most importantly, globals include site-wide theming variables that other components can inherit and modify.
 @import 'layout';

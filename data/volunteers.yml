@@ -1,0 +1,165 @@
+- 'Web Developers':
+    _slug: 'web-developer'
+    category: 'technology'
+    is_paid: false
+    time_commitment: '3-4 hours per month'
+    description: "
+      <p>
+        Want to work on Open Source web applications using the latest technologies? Want to help your
+        local neighbourhood to better connect to its members. Empire Park is gearing up to invest heavily into technology so that we can serve our community better. Web applications will power all of our services and we need web developers to help see
+        our vision.
+      </p>
+      "
+    responsibilities: "
+      <p>Candidates for the postion will be asked to complete the following</p>
+      <ul>
+        <li>Be on time</li>
+        <li>Manage your own time</li>
+        <li>Listen to the board</li>
+        <li>Don't be a freak</li>
+        <li>Communicate with effectively with people of other faiths and backgrounds</li>
+      </ul>
+      "
+    requirements: "
+      <ul>
+        <li>Attend all regullarly scheduled meetings</li>
+        <li>Pass police record check</li>
+        <li>Be 18 or older</li>
+      </ul>
+      "
+    apply: '
+      <p>
+        To apply for the position please send an email to <a href="mailto:volunteers@empirepark.ca">volunteers@empirepark.ca</a>
+        and answer the following questions:
+      </p>
+      <ul>
+        <li>Are you a bad person?</li>
+        <li>Why are you interested?</li>
+        <li>Can you spell your own name?</li>
+      </ul>
+      '
+
+
+- 'Games Manager':
+    _slug: 'winterfest-games-manager'
+    category: 'winter-fest'
+    is_paid: true
+    time_commitment: '5 Hrs Monday & Thursday + 2-3 Hrs every 3rd Tuesday of the month.'
+    description: "
+      <p>
+        Want to work on Open Source web applications using the latest technologies? Want to help your
+        local neighbourhood to better connect to its members. Empire Park is gearing up to invest heavily into technology so that we can serve our community better. Web applications will power all of our services and we need web developers to help see
+        our vision.
+      </p>
+      "
+    responsibilities: "
+      <p>Candidates for the postion will be asked to complete the following</p>
+      <ul>
+        <li>Be on time</li>
+        <li>Manage your own time</li>
+        <li>Listen to the board</li>
+        <li>Don't be a freak</li>
+        <li>Communicate with effectively with people of other faiths and backgrounds</li>
+      </ul>
+      "
+    requirements: "
+      <ul>
+        <li>Attend all regullarly scheduled meetings</li>
+        <li>Pass police record check</li>
+        <li>Be 18 or older</li>
+      </ul>
+      "
+    apply: '
+      <p>
+        To apply for the position please send an email to <a href="mailto:volunteers@empirepark.ca">volunteers@empirepark.ca</a>
+        and answer the following questions:
+      </p>
+      <ul>
+        <li>Are you a bad person?</li>
+        <li>Why are you interested?</li>
+        <li>Can you spell your own name?</li>
+      </ul>
+      '
+
+
+- 'Support Coordinator':
+    _slug: 'support-coordinator'
+    category: 'administration'
+    is_paid: true
+    time_commitment: '5 Hrs Monday & Thursday + 2-3 Hrs every 3rd Tuesday of the month.'
+    description: "
+      <p>
+        Want to work on Open Source web applications using the latest technologies? Want to help your
+        local neighbourhood to better connect to its members. Empire Park is gearing up to invest heavily into technology so that we can serve our community better. Web applications will power all of our services and we need web developers to help see
+        our vision.
+      </p>
+      "
+    responsibilities: "
+      <p>Candidates for the postion will be asked to complete the following</p>
+      <ul>
+        <li>Be on time</li>
+        <li>Manage your own time</li>
+        <li>Listen to the board</li>
+        <li>Don't be a freak</li>
+        <li>Communicate with effectively with people of other faiths and backgrounds</li>
+      </ul>
+      "
+    requirements: "
+      <ul>
+        <li>Attend all regullarly scheduled meetings</li>
+        <li>Pass police record check</li>
+        <li>Be 18 or older</li>
+      </ul>
+      "
+    apply: '
+      <p>
+        To apply for the position please send an email to <a href="mailto:volunteers@empirepark.ca">volunteers@empirepark.ca</a>
+        and answer the following questions:
+      </p>
+      <ul>
+        <li>Are you a bad person?</li>
+        <li>Why are you interested?</li>
+        <li>Can you spell your own name?</li>
+      </ul>
+      '
+
+- 'Night Manager':
+    _slug: 'casino-night-manager'
+    category: 'casino'
+    is_paid: true
+    time_commitment: '5 Hrs Monday & Thursday + 2-3 Hrs every 3rd Tuesday of the month.'
+    description: "
+      <p>
+        Want to work on Open Source web applications using the latest technologies? Want to help your
+        local neighbourhood to better connect to its members. Empire Park is gearing up to invest heavily into technology so that we can serve our community better. Web applications will power all of our services and we need web developers to help see
+        our vision.
+      </p>
+      "
+    responsibilities: "
+      <p>Candidates for the postion will be asked to complete the following</p>
+      <ul>
+        <li>Be on time</li>
+        <li>Manage your own time</li>
+        <li>Listen to the board</li>
+        <li>Don't be a freak</li>
+        <li>Communicate with effectively with people of other faiths and backgrounds</li>
+      </ul>
+      "
+    requirements: "
+      <ul>
+        <li>Attend all regullarly scheduled meetings</li>
+        <li>Pass police record check</li>
+        <li>Be 18 or older</li>
+      </ul>
+      "
+    apply: '
+      <p>
+        To apply for the position please send an email to <a href="mailto:volunteers@empirepark.ca">volunteers@empirepark.ca</a>
+        and answer the following questions:
+      </p>
+      <ul>
+        <li>Are you a bad person?</li>
+        <li>Why are you interested?</li>
+        <li>Can you spell your own name?</li>
+      </ul>
+      '

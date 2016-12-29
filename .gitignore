@@ -22,6 +22,9 @@ testem.log
 **/*.bak
 
 
+# Do not commit the deploy file
+config/deploy.yml
+
 # RAILS
 # Ignore bundler config.
 **/.bundle

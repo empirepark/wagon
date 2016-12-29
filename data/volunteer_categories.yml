@@ -1,0 +1,19 @@
+- 'Administration':
+    _slug: 'administration'
+    description: 'Testing'
+
+- 'Technology':
+    _slug: 'technology'
+    description: 'Testing'
+
+- 'Winter Fest':
+    _slug: 'winter-fest'
+    description: 'Testing'
+
+- 'Casino':
+    _slug: 'casino'
+    description: 'Testing'
+
+- 'Community League Day':
+    _slug: 'community-league-day'
+    description: 'Testing'

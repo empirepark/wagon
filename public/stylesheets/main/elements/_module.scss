@@ -1,3 +1,17 @@
+// Elements Module
+//
+// UI elements are page elements with a single function. They can exist alone or in a plural form with
+// elements sharing qualities.
+//
+// For example, a group of buttons may use buttons to group a set of buttons but a button can also exist
+// by itself.
+
 @import 'button';
 @import 'segment';
 @import 'material-icons';
+@import 'programs';
+@import 'social-media';
+@import 'seperators';
+@import 'volunteer-positions';
+@import 'page-banner';
+@import 'image_mask';

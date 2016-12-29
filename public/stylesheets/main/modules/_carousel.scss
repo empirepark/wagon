@@ -1,0 +1,45 @@
+.carousel-item {
+  height: 600px;
+  background-color: #777;
+}
+
+.carousel-caption {
+  bottom: 40%;
+
+  h3 {
+    font-size: 35px;
+    line-height: normal;
+    color: $white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0.15rem;
+  }
+
+  p {
+    font-size: 20px;
+    color: $white;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .btn {
+    cursor: pointer;
+  }
+}
+
+.carousel-control {
+  z-index: 14;
+}
+
+.carousel-control .icon-prev,
+.carousel-control .icon-next {
+  font-size: 5rem;
+  height: 30px;
+  width: 30px;
+  bottom: 50%;
+  top: initial;
+}
+
+.carousel .mask {
+  z-index: 2;
+}

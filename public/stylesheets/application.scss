@@ -13,11 +13,11 @@
 //
 //
 
+@import 'shared/variables';
+@import 'shared/mixins';
+
 // Globals
 @import 'main/globals/module';
-
-// Vendors
-@import 'bootstrap/bootstrap';
 
 // Elements
 @import 'main/elements/module';
@@ -28,7 +28,5 @@
 // Views
 @import 'main/views/module';
 
-// Behaviors
-@import 'main/behaviors/module';
 
 @import 'main/layouts/module';

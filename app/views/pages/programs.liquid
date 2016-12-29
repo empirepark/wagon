@@ -1,0 +1,66 @@
+---
+title: Programs & Events
+published: true
+handle: programs
+---
+{% extends 'layouts/base' %}
+
+{% block 'content/header' %}
+{% endblock %}
+
+{% block 'content/main' %}
+
+  {% with_scope type: 'Event' %}
+    {% if contents.programs %}
+      <div class="container">
+        <div class="programs mb-3 mt-3">
+          <div class="heading">
+            {% editable_text "offered_events", hint: "Introductory text to events offered by Empirepark.", format: html %}
+              <h2 class="">Upcoming Events</h2>
+            {% endeditable_text %}
+          </div>
+
+          {% for event in contents.programs %}
+            <section class="program program-contained" style="background: {{event.cover_img_color}};">
+              {% link_to event do %}
+                <img class="background" src="{{ event.cover_img.url | resize: '1200x675' }}" alt="">
+                <div class="summary">
+                  <h3>{{ event.title }}</h3>
+                  <p>{{ event.teaser }}</p>
+                </div>
+              {% endlink_to %}
+            </section>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+  {% endwith_scope %}
+
+  <div class="container-fluid">
+    <div class="programs">
+      <div class="heading">
+        {% editable_text "offered_programs", hint: "Introductory text to programs offered by Empirepark.", format: html %}
+          <h2>Our Programs</h2>
+          <div class="sep l"></div>
+          Empirepark offers a variety of community based programs year round
+          <span class="sep r"></span>
+        {% endeditable_text %}
+      </div>
+
+      {% with_scope type: 'Program' %}
+      {% for program in contents.programs %}
+      <section class="program program-fullscreen" style="background: {{program.cover_img_color}};">
+        {% link_to program do %}
+          <img class="background" src="{{ program.cover_img.url | resize: '1200x675' }}" alt="">
+          <div class="summary">
+            <h3>{{ program.title }}</h3>
+            <p>{{ program.teaser }}</p>
+          </div>
+        {% endlink_to %}
+      </section>
+      {% endfor %}
+      {% endwith_scope %}
+    </div>
+  </div>
+
+{% endblock %}

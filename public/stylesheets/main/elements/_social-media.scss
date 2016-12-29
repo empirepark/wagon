@@ -1,0 +1,43 @@
+.social-media-buttons {
+  @include clearfix;
+
+  .button {
+    position: relative;
+    display: block;
+    float: left;
+    width: 32px;
+    height: 32px;
+    padding: 2px 9px;
+    margin: 0 2.5px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 28px;
+    color: $grey-two;
+    background: fade-out(#fff, .94);
+    border-radius: 3px;
+    transition: width .5s ease;
+
+    i {
+      display: inline-block;
+      float: left;
+      margin-right: 10px;
+      font-size: 20px;
+      line-height: 28px;
+    }
+
+    span {
+      position: absolute;
+      visibility: hidden;
+    }
+
+    &:hover {
+      width: 95px;
+      color: $brand-primary;
+      background: $white;
+
+      span {
+        visibility: visible;
+      }
+    }
+  }
+}

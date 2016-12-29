@@ -1,0 +1,116 @@
+- "Green Shack":
+    _slug: "green-shack"
+    type: "Program"
+    cost: "Free"
+    audience: "Ages: 6-12 years (children under 6 must be supervised by a parent or gaurdian)"
+    cover_img: "samples/green-shack.jpg"
+    cover_img_color: "#5cb85c"
+    details: "<strong>When:</strong> Monday - Friday 8:00am - 12:00pm
+      <strong>Where:</strong> Empire Park Community League (in the park)"
+    teaser: "Join in games, sports, crafts, music, drama, and special events. You'll find a list of
+      upcoming activities and special events posted on the side of the Green Shack each week. If there's
+      a game or activity that you'd like to play, just ask the Program Leader. They are there to make your
+      summer a fun one!"
+    body: "Join in games, sports, crafts, music, drama, and special events. You'll find a list of upcoming
+      activities and special events posted on the side of the Green Shack each week. If there's a game or
+      activity that you'd like to play, just ask the Program Leader. They are there to make your summer a
+      fun one!
+
+      Programs are led by staff who:
+
+        - Ensure participants play safely. Parents are responsible for their children at all times and
+          must be available in the event of an emergency
+        - Are easily identifiable by their blue shirts and title tags May be assisted by volunteer Leaders
+          in Training
+        - Have completed a security clearance process, are trained in First Aid and are certified
+          specialists in FUN!
+
+      Programming is still available on rainy days but will be cancelled during severely inclement weather.
+      Thanks to all of our partners who contribute to the Green Shack Playground Program. Special thanks to
+      Community Leagues for the use of facilities and assistance in funding."
+
+- "Yoga":
+    _slug: "yoga"
+    type: "Program"
+    cost: "Free"
+    audience: "Ages: 6-12 years (children under 6 must be supervised by a parent or gaurdian)"
+    cover_img: "samples/yoga.jpg"
+    cover_img_color: "#613d7c"
+    details: "<strong>When:</strong> Monday - Friday 8:00am - 12:00pm
+      <strong>Where:</strong> Empire Park Community League (in the park)"
+    teaser: "Lorem ipsum dolor sit amet, ullamcorper itaque nibh est nullam molestias, sit diam hac erat porttitor, fringilla dolor, eu ad platea, neque quis proin quae. Arcu dui turpis, vehicula adipiscing. Tempus habitasse orci, viverra delectus risus nam. Parturient elit praesent ut, litora morbi pulvinar augue id congue in, lacus condimentum nec, integer vel ullamcorper neque nunc."
+    body: "Mauris wisi etiam ut vitae ultrices elit. Id vitae vulputate enim magna, mauris dignissim eget, donec massa sed. Mauris magna accumsan, nibh viverra ultricies. Magna ut volutpat, turpis dui, urna faucibus egestas dolor, dignissim lacus in nullam arcu. Mattis fringilla amet. Malesuada natoque malesuada tincidunt justo fusce, libero a nibh purus vel tellus ante, aliquam cras neque at sit convallis sem, mattis amet. Praesent lacus et gravida mi suspendisse ac, elit vulputate lectus vel facilisi, mollis nunc pede reprehenderit pede mauris aliquam. Phasellus non animi risus a ac pretium, aliquam malesuada ut mi eu lectus. Ac molestie, et ridiculus at.
+
+    Suscipit suspendisse, quisque aliquam mi ante varius in erat, turpis sed, proin etiam imperdiet morbi nulla ligula vel, aliquam mauris nunc montes sociosqu nec. Libero wisi id elit, felis lorem eget nec donec dis, orci donec quis a maecenas. Ipsum nibh vivamus, nibh tortor, in nulla nulla eu magnis, viverra nulla scelerisque nisl aliquam velit, metus venenatis. Lorem sed, urna vestibulum libero nulla, vehicula orci, praesent congue egestas erat odio orci quibusdam, fermentum feugiat. Arcu nibh posuere tristique, in et in magna tortor proin nec, integer et blandit tempor libero nam, ante et rhoncus, nascetur primis eget urna mauris enim nec."
+
+
+- "Rubber Stamping & Scrapbooking":
+    _slug: "rubber-stamping-n-scrapbooking"
+    type: "Program"
+    cost: "Free"
+    audience: "Ages: 6-12 years (children under 6 must be supervised by a parent or gaurdian)"
+    cover_img: "samples/scrapbooking.jpg"
+    cover_img_color: "#5bc0de"
+    details: "<strong>When:</strong> Monday - Friday 8:00am - 12:00pm
+      <strong>Where:</strong> Empire Park Community League (in the park)"
+    teaser: "Lorem ipsum dolor sit amet, ullamcorper itaque nibh est nullam molestias, sit diam hac erat porttitor, fringilla dolor, eu ad platea, neque quis proin quae. Arcu dui turpis, vehicula adipiscing. Tempus habitasse orci, viverra delectus risus nam. Parturient elit praesent ut, litora morbi pulvinar augue id congue in, lacus condimentum nec, integer vel ullamcorper neque nunc."
+    body: "Mauris wisi etiam ut vitae ultrices elit. Id vitae vulputate enim magna, mauris dignissim eget, donec massa sed. Mauris magna accumsan, nibh viverra ultricies. Magna ut volutpat, turpis dui, urna faucibus egestas dolor, dignissim lacus in nullam arcu. Mattis fringilla amet. Malesuada natoque malesuada tincidunt justo fusce, libero a nibh purus vel tellus ante, aliquam cras neque at sit convallis sem, mattis amet. Praesent lacus et gravida mi suspendisse ac, elit vulputate lectus vel facilisi, mollis nunc pede reprehenderit pede mauris aliquam. Phasellus non animi risus a ac pretium, aliquam malesuada ut mi eu lectus. Ac molestie, et ridiculus at.
+
+    Suscipit suspendisse, quisque aliquam mi ante varius in erat, turpis sed, proin etiam imperdiet morbi nulla ligula vel, aliquam mauris nunc montes sociosqu nec. Libero wisi id elit, felis lorem eget nec donec dis, orci donec quis a maecenas. Ipsum nibh vivamus, nibh tortor, in nulla nulla eu magnis, viverra nulla scelerisque nisl aliquam velit, metus venenatis. Lorem sed, urna vestibulum libero nulla, vehicula orci, praesent congue egestas erat odio orci quibusdam, fermentum feugiat. Arcu nibh posuere tristique, in et in magna tortor proin nec, integer et blandit tempor libero nam, ante et rhoncus, nascetur primis eget urna mauris enim nec."
+
+- "Unpack & Play":
+    _slug: "unpack-n-play"
+    type: "Program"
+    cost: "Free"
+    audience: "Ages: 6-12 years (children under 6 must be supervised by a parent or gaurdian)"
+    cover_img: "samples/unpack-n-play.jpg"
+    cover_img_color: "#ff5b77"
+    details: "<strong>When:</strong> Monday - Friday 8:00am - 12:00pm
+      <strong>Where:</strong> Empire Park Community League (in the park)"
+    teaser: "Lorem ipsum dolor sit amet, ullamcorper itaque nibh est nullam molestias, sit diam hac erat porttitor, fringilla dolor, eu ad platea, neque quis proin quae. Arcu dui turpis, vehicula adipiscing. Tempus habitasse orci, viverra delectus risus nam. Parturient elit praesent ut, litora morbi pulvinar augue id congue in, lacus condimentum nec, integer vel ullamcorper neque nunc."
+    body: "Mauris wisi etiam ut vitae ultrices elit. Id vitae vulputate enim magna, mauris dignissim eget, donec massa sed. Mauris magna accumsan, nibh viverra ultricies. Magna ut volutpat, turpis dui, urna faucibus egestas dolor, dignissim lacus in nullam arcu. Mattis fringilla amet. Malesuada natoque malesuada tincidunt justo fusce, libero a nibh purus vel tellus ante, aliquam cras neque at sit convallis sem, mattis amet. Praesent lacus et gravida mi suspendisse ac, elit vulputate lectus vel facilisi, mollis nunc pede reprehenderit pede mauris aliquam. Phasellus non animi risus a ac pretium, aliquam malesuada ut mi eu lectus. Ac molestie, et ridiculus at.
+
+    Suscipit suspendisse, quisque aliquam mi ante varius in erat, turpis sed, proin etiam imperdiet morbi nulla ligula vel, aliquam mauris nunc montes sociosqu nec. Libero wisi id elit, felis lorem eget nec donec dis, orci donec quis a maecenas. Ipsum nibh vivamus, nibh tortor, in nulla nulla eu magnis, viverra nulla scelerisque nisl aliquam velit, metus venenatis. Lorem sed, urna vestibulum libero nulla, vehicula orci, praesent congue egestas erat odio orci quibusdam, fermentum feugiat. Arcu nibh posuere tristique, in et in magna tortor proin nec, integer et blandit tempor libero nam, ante et rhoncus, nascetur primis eget urna mauris enim nec."
+
+- "Art Classes":
+    _slug: "art"
+    type: "Program"
+    cost: "Free"
+    audience: "Ages: 6-12 years (children under 6 must be supervised by a parent or gaurdian)"
+    cover_img: "samples/art.jpg"
+    cover_img_color: "#f0ad4e"
+    details: "<strong>When:</strong> Monday - Friday 8:00am - 12:00pm
+      <strong>Where:</strong> Empire Park Community League (in the park)"
+    teaser: "Lorem ipsum dolor sit amet, ullamcorper itaque nibh est nullam molestias, sit diam hac erat porttitor, fringilla dolor, eu ad platea, neque quis proin quae. Arcu dui turpis, vehicula adipiscing. Tempus habitasse orci, viverra delectus risus nam. Parturient elit praesent ut, litora morbi pulvinar augue id congue in, lacus condimentum nec, integer vel ullamcorper neque nunc."
+    body: "Mauris wisi etiam ut vitae ultrices elit. Id vitae vulputate enim magna, mauris dignissim eget, donec massa sed. Mauris magna accumsan, nibh viverra ultricies. Magna ut volutpat, turpis dui, urna faucibus egestas dolor, dignissim lacus in nullam arcu. Mattis fringilla amet. Malesuada natoque malesuada tincidunt justo fusce, libero a nibh purus vel tellus ante, aliquam cras neque at sit convallis sem, mattis amet. Praesent lacus et gravida mi suspendisse ac, elit vulputate lectus vel facilisi, mollis nunc pede reprehenderit pede mauris aliquam. Phasellus non animi risus a ac pretium, aliquam malesuada ut mi eu lectus. Ac molestie, et ridiculus at.
+
+    Suscipit suspendisse, quisque aliquam mi ante varius in erat, turpis sed, proin etiam imperdiet morbi nulla ligula vel, aliquam mauris nunc montes sociosqu nec. Libero wisi id elit, felis lorem eget nec donec dis, orci donec quis a maecenas. Ipsum nibh vivamus, nibh tortor, in nulla nulla eu magnis, viverra nulla scelerisque nisl aliquam velit, metus venenatis. Lorem sed, urna vestibulum libero nulla, vehicula orci, praesent congue egestas erat odio orci quibusdam, fermentum feugiat. Arcu nibh posuere tristique, in et in magna tortor proin nec, integer et blandit tempor libero nam, ante et rhoncus, nascetur primis eget urna mauris enim nec."
+
+- "Skating":
+    _slug: "skating"
+    type: "Program"
+    cost: "Free"
+    audience: "Ages: 6-12 years (children under 6 must be supervised by a parent or gaurdian)"
+    cover_img: "samples/skating.jpg"
+    cover_img_color: "#0275d8"
+    details: "<strong>When:</strong> Monday - Friday 8:00am - 12:00pm
+      <strong>Where:</strong> Empire Park Community League (in the park)"
+    teaser: "Lorem ipsum dolor sit amet, ullamcorper itaque nibh est nullam molestias, sit diam hac erat porttitor, fringilla dolor, eu ad platea, neque quis proin quae. Arcu dui turpis, vehicula adipiscing. Tempus habitasse orci, viverra delectus risus nam. Parturient elit praesent ut, litora morbi pulvinar augue id congue in, lacus condimentum nec, integer vel ullamcorper neque nunc."
+    body: "Mauris wisi etiam ut vitae ultrices elit. Id vitae vulputate enim magna, mauris dignissim eget, donec massa sed. Mauris magna accumsan, nibh viverra ultricies. Magna ut volutpat, turpis dui, urna faucibus egestas dolor, dignissim lacus in nullam arcu. Mattis fringilla amet. Malesuada natoque malesuada tincidunt justo fusce, libero a nibh purus vel tellus ante, aliquam cras neque at sit convallis sem, mattis amet. Praesent lacus et gravida mi suspendisse ac, elit vulputate lectus vel facilisi, mollis nunc pede reprehenderit pede mauris aliquam. Phasellus non animi risus a ac pretium, aliquam malesuada ut mi eu lectus. Ac molestie, et ridiculus at.
+
+    Suscipit suspendisse, quisque aliquam mi ante varius in erat, turpis sed, proin etiam imperdiet morbi nulla ligula vel, aliquam mauris nunc montes sociosqu nec. Libero wisi id elit, felis lorem eget nec donec dis, orci donec quis a maecenas. Ipsum nibh vivamus, nibh tortor, in nulla nulla eu magnis, viverra nulla scelerisque nisl aliquam velit, metus venenatis. Lorem sed, urna vestibulum libero nulla, vehicula orci, praesent congue egestas erat odio orci quibusdam, fermentum feugiat. Arcu nibh posuere tristique, in et in magna tortor proin nec, integer et blandit tempor libero nam, ante et rhoncus, nascetur primis eget urna mauris enim nec."
+
+
+- "Winter Fest":
+    _slug: "winter-fest"
+    type: "Event"
+    cost: "Free"
+    audience: "Ages: 6-12 years (children under 6 must be supervised by a parent or gaurdian)"
+    cover_img: "samples/winter-fest.jpg"
+    cover_img_color: "#5bc0de"
+    details: "<strong>When:</strong> Monday - Friday 8:00am - 12:00pm
+      <strong>Where:</strong> Empire Park Community League (in the park)"
+    teaser: "Lorem ipsum dolor sit amet, ullamcorper itaque nibh est nullam molestias, sit diam hac erat porttitor, fringilla dolor, eu ad platea, neque quis proin quae. Arcu dui turpis, vehicula adipiscing. Tempus habitasse orci, viverra delectus risus nam. Parturient elit praesent ut, litora morbi pulvinar augue id congue in, lacus condimentum nec, integer vel ullamcorper neque nunc."
+    body: "<p>Mauris wisi etiam ut vitae ultrices elit. Id vitae vulputate enim magna, mauris dignissim eget, donec massa sed. Mauris magna accumsan, nibh viverra ultricies. Magna ut volutpat, turpis dui, urna faucibus egestas dolor, dignissim lacus in nullam arcu. Mattis fringilla amet. Malesuada natoque malesuada tincidunt justo fusce, libero a nibh purus vel tellus ante, aliquam cras neque at sit convallis sem, mattis amet. Praesent lacus et gravida mi suspendisse ac, elit vulputate lectus vel facilisi, mollis nunc pede reprehenderit pede mauris aliquam. Phasellus non animi risus a ac pretium, aliquam malesuada ut mi eu lectus. Ac molestie, et ridiculus at.
+
+    Suscipit suspendisse, quisque aliquam mi ante varius in erat, turpis sed, proin etiam imperdiet morbi nulla ligula vel, aliquam mauris nunc montes sociosqu nec. Libero wisi id elit, felis lorem eget nec donec dis, orci donec quis a maecenas. Ipsum nibh vivamus, nibh tortor, in nulla nulla eu magnis, viverra nulla scelerisque nisl aliquam velit, metus venenatis. Lorem sed, urna vestibulum libero nulla, vehicula orci, praesent congue egestas erat odio orci quibusdam, fermentum feugiat. Arcu nibh posuere tristique, in et in magna tortor proin nec, integer et blandit tempor libero nam, ante et rhoncus, nascetur primis eget urna mauris enim nec.</p>"

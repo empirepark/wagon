@@ -1,0 +1,14 @@
+.sep {
+  display: inline-block;
+  width: 22px;
+  height: 1px;
+  margin-bottom: .3rem;
+  background: $brand-primary;
+
+  &.l {
+    margin-right: .3rem;
+  }
+  &.r {
+    margin-left: .3rem;
+  }
+}

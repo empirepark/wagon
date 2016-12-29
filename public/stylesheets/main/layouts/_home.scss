@@ -1,0 +1,192 @@
+.contact-us {
+  height: auto;
+  position: relative;
+  padding: 105px 0 0;
+  background: url('../images/parallax/img-2.jpg') top center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-y: hidden;
+  .container {
+    position: relative;
+    z-index: 10;
+  }
+  .contact-form {
+    margin-top: 55px;
+  }
+  .title {
+    h2,
+    i,
+    h4 {
+      color: $white;
+    }
+    h4 {
+    }
+  }
+}
+
+.home-form {
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.749);
+  box-shadow: 0 -1 25 0 rgba(0, 0, 0, 0.27);
+  padding: 32px 15px 15px;
+  .field {
+    margin: 15px 0;
+    h4 {
+      margin-bottom: 10px;
+    }
+    input,
+    select,
+    textarea {
+      position: relative;
+      display: block;
+      width: 100%;
+      border: 0;
+      outline: 0;
+      height: 45px;
+      padding: 0 15px;
+      font-size: 16px;
+      color: fade-out($body-bg, 0.85);
+      border-radius: 3px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      &:active,
+      &:focus {
+        box-shadow: 0 0 2 0 fade-out($body-color-alt, 0.45);
+      }
+    }
+    select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background: $white url('../images/icons/select-arrow.png') right no-repeat;
+    }
+    textarea {
+      height: 100px;
+      padding: 15px;
+    }
+  }
+  @media screen and (max-width:767px) {
+    width: 100%;
+  }
+}
+
+.event-wrapper {
+  position: relative;
+  padding: 105px 0;
+  background: url("../images/parallax/img-3.jpg") center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  .container {
+    position: relative;
+    z-index: 10;
+  }
+  h2,
+  h4,
+  p {
+    color: $white;
+  }
+  h2 {
+    text-transform: uppercase;
+  }
+  h4 {
+    display: inline-block;
+    padding: 10px 5px 25px;
+    i {
+      font-size: 14px;
+      margin-right: 5px;
+    }
+  }
+  p {
+    width: 55%;
+    margin: 0 auto 35px;
+  }
+  @media screen and (max-width:1200px) {
+    p {
+      width: 75%;
+    }
+  }
+  @media screen and (max-width:991px) {
+    p {
+      width: 90%;
+    }
+  }
+}
+
+.volunteers-wrapper {
+  background: #fcfcfc;
+  padding: 95px 0;
+  overflow-x: hidden;
+  .images-outer {
+    height: 100%;
+    position: relative;
+    .images-inner {
+      position: relative;
+      // left: 50%;
+      // margin-left: -147px;
+      float: right;
+      .images {
+        padding: 3px 0;
+        display: block;
+        float: none;
+      }
+      .nivo-trigger {
+        opacity: .8;
+        position: relative;
+        margin: 0 3px;
+        transition: opacity .1s linear;
+        display: block;
+        float: left;
+        text-align: center;
+        span {
+          display: inline-block;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          line-height: 96px;
+          background: fade($secondary-color, 85%);
+          font-size: 18px;
+          color: fade(#fff, 0);
+          opacity: 0;
+          transition: opacity .3s ease, color .4s ease;
+        }
+        &:hover {
+          opacity: 1;
+          span {
+            opacity: 1;
+            color: fade(#ddd, 0.85);
+          }
+        }
+      }
+    }
+  }
+  .info-block {
+    padding: 4.3% 15px 0;
+    h2 {
+      text-transform: uppercase;
+      color: $body-color;
+      strong {
+        color: $brand-primary;
+      }
+    }
+    p {
+      color: $body-color-alt;
+      margin: 20px 0 30px;
+    }
+    .btn {
+      border: 1px solid fade-in($body-color-alt, 0.85);
+      color: $body-color-alt;
+      transition: color 0.3s ease-in-out, background 0.3s ease-in-out;
+      &:hover {
+        background: fade-in($body-color-alt, 0.85);
+        color: #fff;
+      }
+    }
+  }
+  @media screen and (max-width:767px) {
+    .images-outer {
+      margin-top: 50px;
+    }
+  }
+}

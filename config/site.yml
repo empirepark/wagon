@@ -41,8 +41,23 @@ meta_description: "some meta description"
 #
 # Example:
 #
-# metafields:
-#   shop:
-#     address: 700 South Laflin Street
-#   theme:
-#     background_image: "/samples/background.png"
+metafields:
+  addresses:
+    physical_address: "4807 - 107 Street<br>
+    Edmonton, Alberta"
+    mailing_address: "Southgate PO BOX 76116<br>
+      Edmonton, Alberta<br>
+      T6H 5Y7"
+    phone: "780-434-4226"
+    email: "info@empirepark.ca"
+
+  operations:
+    hours: "<ul>
+      <li><strong>Mondays:</strong> 1:00pm - 4:00pm</li>
+      <li><strong>Thursdays:</strong> 10:30am - 2:30pm</li>
+      <li>excluding statutory holidays</li>
+      </ul>"
+
+  social:
+    twitter: "https://twitter.com/empireparkcl/"
+    facebook: "https://www.facebook.com/empireparksw"

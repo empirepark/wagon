@@ -1,0 +1,23 @@
+- "Access & Discounts":
+    icons: "<i class=\"fa fa-futbol-o fa-3x icon-default\" aria-hidden=\"true\"></i>
+      <i class=\"fa fa-futbol-o fa-3x icon-hover\" aria-hidden=\"true\"></i>"
+    teaser: "Membership provides access to minor sports such as Soccer and Baseball along with some discounts at City of Edmonton Recreation Facilities"
+    url: "/purchase-a-membership"
+
+- "Free Swimming":
+    icons: "<i class=\"material-icons md-3x icon-default\">pool</i>
+      <i class=\"material-icons md-3x icon-hover\">pool</i>"
+    teaser: "Each membership grants users several entries into Edmonton Confederation Pool's public swim times for free. Just one more perk of being a member"
+    url: "/purchase-a-membership"
+
+- "Neighourhood Decisions":
+    icons: "<i class=\"fa fa-comments-o fa-3x icon-default\" aria-hidden=\"true\"></i>
+      <i class=\"fa fa-comments-o fa-3x icon-hover\" aria-hidden=\"true\"></i>"
+    teaser: "Community leagues are recognized by the City of Edmonton as the primary speaking body for a community. We are independent and our members help determine our priorities"
+    url: "/purchase-a-membership"
+
+- "Discounted Hall Rental":
+    icons: "<i class=\"material-icons md-3x icon-default\">money_off</i>
+      <i class=\"material-icons md-3x icon-hover\">money_off</i>"
+    teaser: "Need a place to hold a birthday party? We offer greatly discounted rental rates for our hall to our members"
+    url: "/purchase-a-membership"

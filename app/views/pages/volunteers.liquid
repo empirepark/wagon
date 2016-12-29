@@ -1,0 +1,147 @@
+---
+title: Volunteer Opportunities
+published: true
+handle: volunteers
+---
+{% extends 'layouts/base' %}
+
+
+{% block 'content/header' %}
+  <div class="container">
+    <section class="volunteer-page-heading  mt-3">
+      <h2>Volunteer with Empirepark</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis Aristidem non mortuum diligit? Bonum incolumis acies: misera caecitas. Sed haec omittamus; Murenam te accusante defenderem. Duo Reges: constructio interrete. Nescio quo modo praetervolavit oratio. </p>
+
+      <p>Peccata paria. Confecta res esset. Non potes, nisi retexueris illa. Inquit, dasne adolescenti veniam? Et quod est munus, quod opus sapientiae? Tria genera bonorum; Hic ambiguo ludimur. Quis Aristidem non mortuum diligit? Itaque his sapiens semper vacabit. Quid enim? Addidisti ad extremum etiam indoctum fuisse. Ecce aliud simile dissimile. Satis est ad hoc responsum. Eademne, quae restincta siti? </p>
+
+    </section>
+  </div>
+{% endblock %}
+
+
+{% block 'content/main' %}
+  <div class="container ">
+
+    <div id="volunteer-applications" class="">
+
+
+<div class="card">
+
+
+      <section class="volunteer-page-section volunteer-positions">
+        <div class="heading">
+          <h3>Open Positions</h3>
+          <div class="sep l"></div>
+          Currently available volunteer opportunities
+          <span class="sep r"></span>
+        </div>
+
+        {% for categories in contents.volunteer_categories %}
+
+          {% if categories.applications.empty? %}
+            {% continue %}
+          {% endif %}
+
+          <div class="volunteer-category-list">
+            <h4>{{ categories.title }}</h4>
+            <ul>
+              {% for application in categories.applications %}
+
+                {% capture 'application_is_paid' %}
+                  {% if application.is_paid %}
+                    <span class="tag tag-pill tag-success">Paid</span>
+                  {% endif %}
+                {% endcapture %}
+
+                <li>
+                  <a href="#collapse-{{application._slug}}"
+                     data-parent="#volunteer-applications"
+                     data-toggle="collapse"
+                     aria-expanded="false">
+                    {{ application.title }}
+                  </a>
+                  {{ application_is_paid }}
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endfor %}
+
+        {% unless contents.volunteers.any? %}
+          {% editable_text "volunteers_empty", hint: "What to say when no job listings are available.", format: html %}
+            <p><em>We don't have any specific volunteer roles that need to be filled right now, but don't let that stop you from getting in touch if you think we should work together.</em></p>
+
+            <p>
+              Empire Park is always looking for people with some combination of skilles and experience in:
+            </p>
+
+            <ul>
+              <li>logistics: project and people management</li>
+              <li>program management: running community events & programs</li>
+              <li>technology: ruby, javascript, html, css</li>
+              <li>building maintenance: general handy(man|woman) skills like installing weather stripping</li>
+            </ul>
+
+            <p>
+              We hold meetings every third Tuesday of the month at our hall so feel free to pop by and say hi.
+              We're a completely volunteer run organization dedicated to serving our local community.
+            </p>
+
+            <p>If you’d like to get in touch, email <a href="mailto:board@empirepark.ca">board@empirepark.ca</a>.</p>
+          {% endeditable_text %}
+        {% endunless %}
+      </section>
+
+      {% for application in contents.volunteers %}
+
+        {% capture 'application_is_paid' %}
+          {% if application.is_paid %}
+            <span class="tag tag-success">Paid</span>
+          {% else %}
+            <span class="tag tag-primary">Volunteer</span>
+          {% endif %}
+        {% endcapture %}
+
+        {% capture 'application_status' %}
+          {% if application.is_filled %}
+            <span class="tag tag-danger">filled</span>
+          {% else %}
+            <span class="tag tag-success">open</span>
+          {% endif %}
+        {% endcapture %}
+
+        <article id="collapse-{{ application._slug }}" class="collapse fade volunteer-position">
+          <section class="content">
+            <h2 class="mb-3">{{ application.title }}</h2>
+            {{ application.description }}
+
+            <h3>Responsibilities</h3>
+            {{ application.responsibilities }}
+
+            <h3>Requirements</h3>
+            {{ application.requirements }}
+
+            <h3>How to Apply</h3>
+            {{ application.apply }}
+          </section>
+
+          <aside class="sidebar">
+            <section class="details">
+              <dl class="">
+                <dt>Position Type:</dt>
+                <dd>{{ application_is_paid }}</dd>
+                <dt>Position Status:</dt>
+                <dd>{{ application_status}}</dd>
+                <dt>Time Commitment:</dt>
+                <dd>{{ application.time_commitment }}</dd>
+              </dl>
+            </section>
+          </aside>
+        </article>
+      {% endfor %}
+
+</div>
+    </div>
+
+  </div>
+{% endblock %}

@@ -12,22 +12,52 @@ is_layout: false
     <title>{{ site.name }}</title>
 
     <link rel="shortcut icon" href="{{ 'favicon.ico' | theme_image_url }}">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:900|Raleway:300" rel="stylesheet">
+    {{ 'bootstrap.css' | stylesheet_tag }}
     {{ 'application.css' | stylesheet_tag }}
   </head>
   <body>
-    
-    {% include 'content-head' %}
-    
-    {% block content %}
+
+    {% block 'site_header' %}
+      {% include 'site_header' %}
     {% endblock %}
 
-    {% include 'content-footer' %}
+    <main class="site-content">
+      {% block content %}
+      {% endblock %}
+    </main>
 
+    {% block 'site_footer' %}
+      {% include 'site_footer' %}
+    {% endblock %}
 
-    {{ 'jquery.min.js' | javascript_tag }}
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
-    {{ 'application.js' | javascript_tag }}
+    {% block javascript %}
+      {{ 'jquery.min.js' | javascript_tag }}
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"
+        integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK"
+        crossorigin="anonymous">
+      </script>
+      {{ 'application.js' | javascript_tag }}
+
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>
+        (function($) {
+          window.fnames = new Array();
+          window.ftypes = new Array();
+          fnames[0]='EMAIL';
+          ftypes[0]='email';
+          fnames[1]='FNAME';
+          ftypes[1]='text';
+          fnames[2]='LNAME';
+          ftypes[2]='text';
+        }(jQuery));
+        var $mcj = jQuery.noConflict(true);
+      </script>
+    {% endblock %}
   </body>
 </html>

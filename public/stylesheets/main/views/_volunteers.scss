@@ -1,0 +1,21 @@
+.volunteer-page-heading {
+  margin-top: 2rem;
+  margin-bottom: 7rem;
+
+  h2 {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+}
+
+
+.volunteer-page-section {
+  margin-bottom: 1rem;
+}
+
+#volunteer-applications {
+  .card {
+    background-color: $body-bg;
+    border-style: none;
+  }
+}

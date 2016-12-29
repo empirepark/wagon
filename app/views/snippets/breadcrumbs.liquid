@@ -1,0 +1,10 @@
+<ol class="breadcrumb">
+  {% for p in page.breadcrumbs %}
+    {% unless forloop.last %}
+      <li class="breadcrumb-item">{% link_to p %}</li>
+
+    {% else %}
+      <li class="breadcrumb-item active">{{ p.title }}</li>
+    {% endunless %}
+  {% endfor %}
+</ol>

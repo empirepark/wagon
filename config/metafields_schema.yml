@@ -28,21 +28,34 @@
 #
 # Simple example:
 #
-# shop:
-#   label: My shop location
-#   fields:
-#     address:
-#       type: string
-#       hint: "Ex: 7 allee Albert Camus"
-#     city:
-#       type: string
-#       hint: "Chicago, Paris, Blagnac, Toulouse"
-#     zip_code:
-#       type: string
-#       hint: "Digits only"
-#     hours:
-#       type: text
-#       hint: "Free text here"
+addresses:
+  label: Empire Park Addresses
+  fields:
+    mailing_address:
+      type: text
+      hint: "Mailing Address for Empirepark"
+    physical_address:
+      type: text
+      hint: "Physical Address for Empirepark"
+    phone:
+      type: string
+      hint: "Office Phone Number"
+    email:
+      type: string
+      hint: "Office Phone Number"
+
+operations:
+  label: Empire Park Mailing Address
+  fields:
+    hours:
+      type: text
+      hint: "Hours of operation"
+
+social:
+  label: Social links
+  fields:
+    - facebook
+    - twitter
 # theme:
 #   fields:
 #     background_image:
@@ -53,4 +66,3 @@
 #     font:
 #       type: select
 #       select_options: ['helvetica', 'Noto']
-
