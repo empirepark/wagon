@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'locomotivecms_wagon', '~> 2.2.0'
+# gem 'locomotivecms_wagon', '~> 2.3'
+gem 'locomotivecms_wagon', path: 'E:/projects/repos/locomotive-cms/wagon'
 
 # gem 'guard-livereload', '~> 2.5.1'
 
@@ -15,12 +16,13 @@ group :development do
 
   # Windows
   gem 'wdm', '~> 0.1.1', require: 'wdm' if RUBY_PLATFORM =~ /mswin|mingw/i
+  gem 'win32console' if Gem.win_platform?
 end
 
 group :misc do
+
   # Add your extra gems here
   # gem 'susy', require: 'susy'
   # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
   gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 end
-
